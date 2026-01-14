@@ -6,5 +6,17 @@
 // 
 // 
 void main() {
-print('전이수');
+final int = 30;
+final sting = '전이수';
+final rocal = '부산';
+print(int);
+print(sting);
+print(rocal);
 }
+
+
+    
+
+
+
+
