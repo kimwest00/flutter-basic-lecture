@@ -6,13 +6,15 @@
 // 
 // 
 void main() {
-final int = 30;
-final sting = '전이수';
-final rocal = '부산';
-print(int);
-print(sting);
-print(rocal);
+final leesoo = {
+"name": "전이수",
+"age": 30,
+"address": "부산"
+};
+print(leesoo);
 }
+
+
 
 
     

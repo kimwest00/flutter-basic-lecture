@@ -5,5 +5,8 @@
 // 3. List의 첫 번째 요소를 출력해주세요
 //
 void main() {
-  // TODO: 해당 라인을 지우고 코드를 작성해주세요
+final List<String> foods = ['국밥', '블루베리', '초콜릿'];
+final List<int> foodsindex = [0, 1, 2];
+print(foods[0]);
+print(foods);
 }
