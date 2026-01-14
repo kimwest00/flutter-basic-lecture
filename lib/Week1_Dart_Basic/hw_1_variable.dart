@@ -6,15 +6,20 @@
 // 
 // 
 void main() {
+final int = 30;
+final sting = '전이수';
+final local = '부산';
+print(int);
+print(sting);
+print(local);
+
 final leesoo = {
-"name": "전이수",
-"age": 30,
-"address": "부산"
+    'age': 30 ,
+    'name': '전이수',
+    'local': '부산'
 };
 print(leesoo);
-}
-
-
+}   
 
 
     
