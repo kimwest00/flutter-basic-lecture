@@ -10,13 +10,14 @@
 // 4. 그 외에는 'C학점'을 출력해주세요
 //
 void main() {
-  // TODO: 점수를 선언해주세요
-
-  // if (_________) {
-  //   print('A학점');
-  // } else if (________) {
-  //   print('B학점');
-  // } else {
-  //   print('C학점');
-  // }
+final int score = 90;
+if(score >= 90) {
+  print('A학점'); 
+}
+if(score >= 80) {
+  print('B학점');
+}
+else(score) {
+  print('C학점');
+};
 }
