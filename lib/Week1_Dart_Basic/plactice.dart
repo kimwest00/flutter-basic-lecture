@@ -1,11 +1,15 @@
-void main(){
-    int student1 = 100;
-    int student2 = 90;
-    sub(student1);
-    sub(student2);
+void main() {
+  int score1 = 85;
+  int score2 = 60;
 
+	printPassResult('민서', score1);
+	printPassResult('이수', score2);
 }
-void sub(int parameter){
-    if(parameter>80){print('합격');}
-    else{print('불합격');}
-} 
+
+void printPassResult(String name, int score){
+	if (score >= 80) {
+    print('$name: 합격');
+  } else {
+    print('$name: 불합격');
+  }
+}
