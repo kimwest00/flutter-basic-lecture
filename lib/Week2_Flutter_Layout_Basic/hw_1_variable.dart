@@ -6,6 +6,12 @@
 //
 void main() {
 
-  // TODO
+  int orderprice = 20000;
+
+  int shippingfee = 3000;
+
+  int totalprice = orderprice + shippingfee;
+
+  print(totalprice);
 
 }

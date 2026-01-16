@@ -12,7 +12,7 @@ import 'dart:io';
 // 5. 음식이 3개 미만이면 '선택지가 적어요'를 출력해주세요
 //
 void main() {
-  print('음식 이름들을 입력하세요 (쉼표 또는 공백으로 구분):');
+  print(국밥 피자 치킨 햄버거);
 
   String? input = stdin.readLineSync();
 
@@ -32,4 +32,9 @@ void main() {
   print('음식 개수: ${foods.length}');
 
   // TODO: List의 length를 사용해서 조건문을 작성해보세요
+  if(foods.lenth >=3){
+    print('선택지가 많아요');
+  }else{
+    print('선택지가 적어요');
+  }
 }
