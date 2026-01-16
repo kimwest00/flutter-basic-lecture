@@ -10,14 +10,22 @@
 // 4. 그 외에는 'C학점'을 출력해주세요
 //
 void main() {
-final int score = 90;
-if(score >= 90) {
-  print('A학점'); 
-}
-if(score >= 80) {
+
+List<int> score =[70, 80, 90];
+
+if(score[2] >=90){
+  print('A학점');
+} else{
   print('B학점');
 }
-else(score) {
+if(score[1] >=80){
+  print('B학점');
+} else{
   print('C학점');
-};
+}
+if(score[0] >=90){
+  print('A학점');
+} else{
+  print('C학점');
+}
 }
