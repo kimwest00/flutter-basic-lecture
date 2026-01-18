@@ -14,4 +14,7 @@ void main() {
 
   print(totalprice);
 
-}
+}//void를 나름대로 해석 
+//코드의 내용을 저장하기 보단 출력 즉 행동? 하기위한 함수 
+//int, string, bool은 변수??(데이터 저장)
+//void, print = 함수>>행동?(데이터 저장X)
