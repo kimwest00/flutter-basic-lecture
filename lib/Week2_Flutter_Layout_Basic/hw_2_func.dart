@@ -5,12 +5,12 @@
 //
 
 /// TODO: [printGreeting] 함수를 완성해주세요
-void printGreeting(String name) {
-   print("오늘도 행복한 하루 보내세요 $name");
+   void printGreeting(String greetings) {
+   print(greetings);
 }
 
 void main() {
-  printGreeting('민서');
-  printGreeting('이수');
+  printGreeting('민서님 오늘도 숙제를 열심히 했습니다.');
+  printGreeting('이수야 숙제 열심히 해라!');
 
 }
