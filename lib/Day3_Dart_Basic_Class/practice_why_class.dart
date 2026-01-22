@@ -1,35 +1,31 @@
-void main() {
-  // 첫 번째 사람
-  String name1 = '민서';
-  int age1 = 25;
-  int score1 = 85;
-  String region1 = '서울';
 
-  // 두 번째 사람
-  String name2 = '철수';
-  int age2 = 27;
-  int score2 = 60;
-  String region2 = '부산';
+class Person{
+  String name;
+  int age;
+  int score;
+  String region;
 
-  // 첫 번째 사람 출력
-  print(name1);
-  print(age1);
-  print(region1);
+  Person(this.name, this.age, this.score, this.region);
 
-  if (score1 >= 80) {
+void printperson(){
+print('이름: $name');
+  print('나이: $age');
+  print('점수: $score');
+  print('지역: $region');
+  
+  if (score >= 80){
     print('합격');
-  } else {
-    print('불합격');
-  }
-
-  // 두 번째 사람 출력
-  print(name2);
-  print(age2);
-  print(region2);
-
-  if (score2 >= 80) {
-    print('합격');
-  } else {
+  }else{
     print('불합격');
   }
 }
+ 
+}
+void main(){
+  Person person1 = Person('민서', 25, 85, '서울');
+  Person person2 = Person('철수', 27, 60, '부산');
+
+  person1.printperson(); 
+  person2.printperson();
+}
+///프린트를했을때 보기 좋게 하고 싶은데 방법이 없을까요??
