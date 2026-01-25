@@ -11,15 +11,22 @@
 /// TODO: Person 클래스를 완성해주세요
 class Person {
   // TODO: 필드 3개 선언
+  String name;
+  int age;
+  int score;
 
   // TODO: 생성자 만들기
+  Person(this.name, this.age, this.score);
 
 }
 
 void main() {
   // TODO: Person('철수', 10, 85) 만들기
   // TODO: Person('영희', 7, 60) 만들기
-
+Person chol =Person('철수', 10, 85);
+Person yong =Person('영희', 7, 60);
   // TODO: 철수의 나이 print
   // TODO: 영희의 점수 print
+ print('철수의 나이: ${chol.age}살');
+ print('영희의 점수: ${yong.score}점');
 }
