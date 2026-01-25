@@ -15,12 +15,26 @@
 
 /// TODO: [recommendWorkout] 함수를 완성해주세요
 // String recommendWorkout(int energy, bool isSore) {
-  // TODO
+  // TODO 
 // }
+String recommendWorkout(int energy, bool isSore){
+  if(isSore == true){
+  return '휴식 또는 스트레칭';
+  }
+  else if(energy >= 70){
+    return '고강도 운동';
+  }
+  else {
+    return '가벼운 운동';
+  }
+}
 
 void main() {
   // TODO: 아래 케이스들을 테스트하고 결과를 출력해보세요
   // 1) energy=80, isSore=false
   // 2) energy=50, isSore=false
   // 3) energy=90, isSore=true
+print('케이스1: ${recommendWorkout( 80, false)}');
+print('케이스2: ${recommendWorkout( 50, false)}');
+print('케이스3: ${recommendWorkout( 90, true)}');
 }
