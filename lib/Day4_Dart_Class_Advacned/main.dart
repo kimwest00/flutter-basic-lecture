@@ -35,6 +35,11 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// TODO: 아래의 [MyHomePage] 클래스부터 수정해주세요
+// 1. 새로운 클래스를 만들고, 해당 클래스를 home:(33번째 라인)에 넣어주세요
+// 2.데드리프트, 스쿼트, 벤치프레스, 런닝머신을 리스트에 선언해주세요
+// 3. 해당 리스트를 이용해 세로로 Text를 이용해 화면에 그려주세요
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
