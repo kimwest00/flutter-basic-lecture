@@ -16,8 +16,20 @@
 
 class Workout {
   // TODO
+  String name;
+  int duration;
+  Workout(this.name, this.duration);
+
+void getSummary(){
+  print('${name} ${duration}분');
+
+}
 }
 
 void main() {
   // TODO
+  Workout w1 = Workout('스쿼트', 30);
+  Workout w2 = Workout('렛풀다운', 10);
+  w1.getSummary();
+  w2.getSummary();
 }
