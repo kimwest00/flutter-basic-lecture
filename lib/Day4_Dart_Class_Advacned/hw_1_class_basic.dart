@@ -18,7 +18,7 @@ class Workout {
   // TODO
   String name;
   int duration;
-  Workout(this.name, this.duration);
+  Workout({required this.name, required this.duration});
 
 void getSummary(){
   print('${name} ${duration}분');
@@ -28,8 +28,8 @@ void getSummary(){
 
 void main() {
   // TODO
-  Workout w1 = Workout('스쿼트', 30);
-  Workout w2 = Workout('렛풀다운', 10);
+  Workout w1 = Workout(duration:30,name:'스쿼트');
+  Workout w2 = Workout(duration:10,name:'렛풀다운');
   w1.getSummary();
   w2.getSummary();
 }
