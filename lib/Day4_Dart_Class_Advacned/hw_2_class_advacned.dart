@@ -52,5 +52,24 @@ class RibbonPig extends Monster {
 
 void main() {
   // TODO
+  print('m1');
+  final m1=Mushroom(level:10, hp: 100);
+  m1.attack();
+  print('m2');
+  final m2=Mushroom(level: 5, hp: 40);
+  m2.attack();
 }
-
+class Mushroom extends Monster{
+  int hp;
+  Mushroom({required int level, required this.hp}) :super(level);///super개념이 잘 이해가 안갑니다....
+  @override
+  void attack(){
+    if(hp>= 50){
+      print('버섯 몬스터가 독을 뿌립니다');
+    }
+    else{
+      print('버섯 몬스터가 도망칩니다');
+    }
+  } 
+  }
+  
