@@ -32,7 +32,7 @@ class Slime extends Monster {
 class RibbonPig extends Monster {
   RibbonPig({required int level}) : super(level);
 
-  @override
+  @override//그럼 몬스터
   void onHit() {
     print('리본돼지가 맞았다');
   }
@@ -60,9 +60,10 @@ void main() {
   m2.attack();
 }
 class Mushroom extends Monster{
-  int hp;
+  int hp;//여기서 머쉬룸은 상태값이 따로 추가가 가능한데
   Mushroom({required int level, required this.hp}) :super(level);///super개념이 잘 이해가 안갑니다....
-  @override
+  
+  @override//행동??은 몬스터가 가지고 있는 틀 이외에 다른 값을 가질 순 없는건가? 예를 들면 void disappear(){}이런식으로??
   void attack(){
     if(hp>= 50){
       print('버섯 몬스터가 독을 뿌립니다');
