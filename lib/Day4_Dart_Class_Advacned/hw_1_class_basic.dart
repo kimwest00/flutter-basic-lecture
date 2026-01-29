@@ -20,16 +20,15 @@ class Workout {
   int duration;
   Workout({required this.name, required this.duration});
 
-void getSummary(){
-  print('${name} ${duration}분');
-
-}
+  void getSummary() {
+    print('${name} $duration분');
+  }
 }
 
 void main() {
   // TODO
-  Workout w1 = Workout(duration:30,name:'스쿼트');
-  Workout w2 = Workout(duration:10,name:'렛풀다운');
+  Workout w1 = Workout(duration: 30, name: '스쿼트');
+  Workout w2 = Workout(duration: 10, name: '렛풀다운');
   w1.getSummary();
   w2.getSummary();
 }
