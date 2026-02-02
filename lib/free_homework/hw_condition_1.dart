@@ -12,9 +12,24 @@
 //
 
 void evaluateWorkoutFrequency(int days) {
-  // TODO
+  if (days >= 5) {
+    print('아주 꾸준해요');
+  } else if (days >= 3) {
+    print('적당히 운동했어요');
+  } else if (days >= 2) {
+    print('운동을 조금 했어요');
+  } else {
+    print('이번 주는 운동을 쉬었어요');
+  }
 }
 
+// TODO
+
 void main() {
+  evaluateWorkoutFrequency(0);
+  evaluateWorkoutFrequency(2);
+  evaluateWorkoutFrequency(3);
+  evaluateWorkoutFrequency(7);
+
   // TODO
 }

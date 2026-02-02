@@ -15,8 +15,21 @@
 
 void checkWorkoutAvailability(bool hasTime, bool isHealthy) {
   // TODO
+  if (hasTime == false) {
+    print('시간이 부족해요');
+  } else {
+    if (isHealthy == true) {
+      print('운동 가능해요');
+    } else {
+      print('휴식이 필요해요');
+    }
+  }
 }
 
 void main() {
   // TODO
+  checkWorkoutAvailability(true, true);
+  checkWorkoutAvailability(true, false);
+  checkWorkoutAvailability(false, true);
+
 }

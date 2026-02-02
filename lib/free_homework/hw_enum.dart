@@ -14,15 +14,22 @@
 //
 
 // TODO-1
-// enum WorkoutType {
-  
-// }
+ enum WorkoutType {aerobic,stength}
 
 // TODO-2
-// void classifyWorkout(WorkoutType workoutType) {
-  
-// }
+ void classifyWorkout(WorkoutType workout) {
+ if(workout==WorkoutType.aerobic){
+  print('심폐 지구력 운동입니다.');}
+  else if(workout==WorkoutType.stength){
+    print('근육 강화 운동입니다.');}
+
+  }
+
+ 
 
 void main() {
+classifyWorkout(WorkoutType.aerobic);
+classifyWorkout(WorkoutType.stength);
+
   // TODO
 }

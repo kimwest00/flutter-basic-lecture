@@ -13,8 +13,21 @@
 
 void classifyWorkoutLevel(int minutes) {
   // TODO
+  if (minutes >= 90) {
+    print('과훈련 주의');
+  } else if (minutes >= 40) {
+    print('집중 운동');
+  } else if (minutes >= 15) {
+    print('일반 운동');
+  } else {
+    print('워밍업 수준');
+  }
 }
 
 void main() {
   // TODO
+  classifyWorkoutLevel(10);
+  classifyWorkoutLevel(15);
+  classifyWorkoutLevel(40);
+  classifyWorkoutLevel(90);
 }
