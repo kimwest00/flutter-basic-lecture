@@ -17,7 +17,6 @@ class GymMember {
     }
   }
 
-
 void main() {
   GymMember gymMember1 = GymMember(name: '홍길동', attendance: 10);
   GymMember gymMember2 = GymMember(name: '김철수', attendance: 5);
