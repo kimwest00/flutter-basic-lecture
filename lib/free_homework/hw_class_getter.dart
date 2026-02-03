@@ -10,7 +10,7 @@ class WorkoutRecord {
   String workoutName;
   int sets;
   WorkoutRecord({required this.workoutName, required this.sets});
-  // TODO
+  
   void workoutresult() {
     print('운동이름:$workoutName,세트 수:$sets');
   }
@@ -23,5 +23,4 @@ void main() {
   w1.workoutresult();
   w2.workoutresult();
   w3.workoutresult();
-  // TODO
 }
