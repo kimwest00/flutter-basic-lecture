@@ -14,37 +14,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 171, 0, 238)),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color.fromARGB(255, 171, 0, 238),
+        ),
+      ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'), //!! <- MyHomePage class에 작성한 코드를 테스트하고 싶다면 해당 라인의  주석을 해제해주세요!
       home: const SalesScreen(title: 'Sales Screen'),
-    )
     );
   }
 }
 
-class _MyWidgetState extends State<MyWidgetsta>
-    with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-
-  @override
-  void initState() {
-    super.initState();
-    _controller = AnimationController(vsync: this);
-  }
-
-  @override
-  void dispose() {
-    _controller.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}{
-
-}
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
