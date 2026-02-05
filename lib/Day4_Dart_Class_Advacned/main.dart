@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basic_lecture/Day7_list_basic/stock_list_screen.dart';
 import 'package:flutter_basic_lecture/practice_layout/sales_screen.dart';
 
 void main() {
@@ -18,8 +19,8 @@ class MyApp extends StatelessWidget {
           seedColor: const Color.fromARGB(255, 171, 0, 238),
         ),
       ),
-      // home: const MyHomePage(title: 'Flutter Demo Home Page'), //!! <- MyHomePage class에 작성한 코드를 테스트하고 싶다면 해당 라인의  주석을 해제해주세요!
-      home: const SalesScreen(title: 'Sales Screen'),
+       home: const MyHomePage(title: 'Flutter Demo Home Page'), //!! <- MyHomePage class에 작성한 코드를 테스트하고 싶다면 해당 라인의  주석을 해제해주세요!
+      // home: const StockListScreen(),
     );
   }
 }
