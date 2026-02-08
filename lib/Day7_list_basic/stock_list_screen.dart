@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Stock{
+class Stock {
   // TODO: 1. 해당 화면을 구현하기위한 Stock 모델 클래스를 구현하세요.
   // named constructor를 활용해주세요
 }
@@ -12,10 +12,22 @@ class StockItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column(
+      children: [
+        Image.asset('assets/list/1.png',height:100),
+        Text('신타6 프로틴음료'),
+        Text('#2,900'),
+      ],
+    );
   }
 }
 
 // TODO: 4. 3번에서 구현한 위젯을 이용해서 Row + Map을 활용하여 화면과 최대한 비슷하게 구현해볼까요?
+class StockListScreen extends StatelessWidget {
+  const StockListScreen({super.key});
 
-
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(body:StockItem());
+  }
+}
