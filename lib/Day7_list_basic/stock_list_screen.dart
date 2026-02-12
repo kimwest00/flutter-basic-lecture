@@ -75,8 +75,11 @@ class StockListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Row(children: stocks.map((s) => StockItem(stock: s)).toList()),
+      body: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: Row(children: stocks.map((s) => StockItem(stock: s)).toList()),
+      ),
     );
   }
-}
+}  
 ///(가로로 한개씩 stocks라는 리스트에서 s하나를 꺼내 StockItem)
