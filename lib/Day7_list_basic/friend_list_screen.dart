@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 // TODO: 1. 화면 class를 구현합니다. stl/stful 둘 중 하나의 class를 상속받아 구현해주세요
 // TODO: 2. 아래의 Friend class와 friends 리스트를 이용해서 화면과 최대한 비슷하게 구현해봅니다!
-// LINK:
+// LINK: https://www.figma.com/design/jcbVhPXzne9eP5cJy9UIvC/%EC%95%B1-%EA%B0%9C%EB%B0%9C-%EC%88%98%EC%97%85?node-id=76-79&t=SRn6Ch4eeODd0YPs-4
 // 기본적으로 수업시간에 배운 map을 이용해봅시다! 리스트의 개수를 조절해봐도 좋습니다.
 
 class Friend {
