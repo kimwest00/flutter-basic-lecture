@@ -19,8 +19,6 @@
 //
 
 /// TODO: [summarizeWorkoutDay] 함수를 완성해주세요
-library;
-
 // void summarizeWorkoutDay(List<String> workouts) {
 // TODO
 // }
