@@ -21,7 +21,7 @@ class Workout {
   Workout({required this.name, required this.duration});
 
   void getSummary() {
-    print('${name} $duration분');
+    print('$name $duration분');
   }
 }
 
