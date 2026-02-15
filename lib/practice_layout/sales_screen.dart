@@ -34,6 +34,16 @@ class _SalesScreenState extends State<SalesScreen> {
                       ),
                     ),
                     const SizedBox(height: 20),
+                    GestureDetector(
+                      child: Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(width: 1, color: Colors.black12),
+                        ),
+                        child: Text("child"),
+                      ),
+                    ),
+                    OutlinedButton(onPressed: () {}, child: Text("child")),
+
                     // 상품명
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -174,7 +184,9 @@ class _SalesScreenState extends State<SalesScreen> {
                                 fontSize: 18,
                                 fontWeight: FontWeight.bold,
                               ),
-                            ),///밑에 아이콘 만드는건 다트ai도움을 받았습니다.
+                            ),
+
+                            ///밑에 아이콘 만드는건 다트ai도움을 받았습니다.
                             Container(
                               decoration: BoxDecoration(
                                 color: Colors.black,
