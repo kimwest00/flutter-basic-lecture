@@ -60,6 +60,7 @@ flutter:
   assets:
 
     - assets/practice/
+    - assets/beverage-list/
     - assets/list/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
